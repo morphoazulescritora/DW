@@ -1,9 +1,51 @@
 *
 {
+	margin: 0px;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+	vertical-align: baseline;
 	background: black;
-	margin: 30px 10px;
+}
+nav
+{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 0px;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+nav p img
+{
+	color: black;
+	font-size: 20px;
+	font-family: 'Amatic SC', sans-serif;
+	width: 160px;
+}
+ul li
+{
+	display: inline-block;
+	padding: 0px 20px;
+}
+a
+{
+	color: white;
+	text-decoration: none;
+	font-family: 'Mooli', sans-serif;
+}
+a:hover
+{
+	color: #FF329C
+}
+div p
+{
+	text-align: center;
+	color: transparent;
 }
 img
 {
 	border-radius: 5%;
+	margin: 25px 20px 10px 30px;
+	padding:
 }
