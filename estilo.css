@@ -1,6 +1,7 @@
 body
 {
 	background: black;
+	margin: 0;
 }
 
 *
@@ -23,9 +24,9 @@ nav
 nav p img
 {
 	color: black;
-	font-size: 50px;
+	font-size: 20px;
 	font-family: 'Amatic SC', sans-serif;
-	width: 175px;
+	width: 160px;
 }
 ul li
 {
@@ -44,17 +45,21 @@ a:hover
 }
 article h1
 {
-	margin: 130px 0 10px 750px;
+	margin: 110px 0 0px 0px;
+	padding-right: 30px;
 	font-family:'Mooli', sans-serif;
-	font-size: 80px;
+	font-size: 70px;
 	color: white;
+	text-align: center;
 }
 article h2
 {
-	margin: 20px 0 0px 760px;
+	margin: 0px 0 px 0px 0;
+	padding: 45px;
 	font-family:'Mooli', sans-serif;
 	font-size: 50px;
-	background: linear-gradient(#D9FF19,#FF5D36, #FF329C,#230074);
+	text-align: center;
+	background: radial-gradient(250px, #D9FF19,#FF5D36, #FF329C,#230074);
 	color: transparent;
 	background-clip: text;
 	-webkit-background-clip: text;
@@ -62,8 +67,19 @@ article h2
 }
 h4
 {
-	margin: 180px 120px 3px 600px;
+	margin:150px 0px 2px 0;
 	font-family: 'Mooli', sans-serif;
 	font-size: 12px;
 	color: white;
+	text-align: center;
+}
+div p
+{
+ text-align: center;
+ color: transparent;	
+}
+a img 
+{
+	width: 50px;
+	margin: 60px 20px 0px;
 }
