@@ -40,18 +40,29 @@ a
 }
 a:hover
 {
-	color: #A50073;
+	color: #FF329C;
 }
 article h1
 {
-	margin: 150px 0 10px 700px;
+	margin: 130px 0 10px 750px;
 	font-family:'Mooli', sans-serif;
-	font-size: 100px;
+	font-size: 80px;
 	color: white;
+}
+article h2
+{
+	margin: 20px 0 0px 760px;
+	font-family:'Mooli', sans-serif;
+	font-size: 50px;
+	background: linear-gradient(#D9FF19,#FF5D36, #FF329C,#230074);
+	color: transparent;
+	background-clip: text;
+	-webkit-background-clip: text;
+	
 }
 h4
 {
-	margin: 150px 120px 3px 600px;
+	margin: 180px 120px 3px 600px;
 	font-family: 'Mooli', sans-serif;
 	font-size: 12px;
 	color: white;
